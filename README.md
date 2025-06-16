@@ -30,4 +30,4 @@ A simple HTML/CSS project that replicates a grocery store receipt — complete w
 
 ## 📸 Preview
 
-![receipt preview](https://github.com/user-attachments/assets/9728a55e-b7ce-4d0f-ad0c-89056c303a20) 
+![receipt preview](https://github.com/user-attachments/assets/60b4f23a-1216-4428-bbfa-af30b6429638)
