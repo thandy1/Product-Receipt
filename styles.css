@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: monospace;
+    background-color: lightgray;
+}
+.receipt {
+    max-width: 100%;
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 0 7px;
+    background-color: white;
+    /*aesthetics*/
+    border: 2px dashed black;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+.bold {
+    font-weight: 800;
+}
+.divider {
+   border-bottom: 1px solid #888989; 
+   margin: 10px 0;
+}
+.large {
+    height: 10px;
+}
+.medium {
+    height: 5px;
+}
+.large, .medium {
+    background-color: black;
+    border: 0;
+}
+header h1 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 4px 0;
+}
+.items p {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.total p {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.small-text {
+    font-size: 0.85em;
+}
+.receipt p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+}
+footer p {
+    margin: 10px 0;
+    text-align: center;
+    font-style: italic;
+}
+h2 {
+    display: flex;
+    justify-content: space-between;
+}
+/* barcode stretch challenge */
+.barcode {
+    margin: 1px 0;
+    text-align: center;  
+}
+.bar {
+    display: inline-block;
+    background-color: black;
+    margin-right: -4px;
+}
+.one {
+    width: 2px;
+    height: 30px;
+}
+.two {
+    width: 4px;
+    height: 30px;
+}
+.barcode-num {
+    font-family: monospace;
+    font-size: 0.8em;
+    padding-bottom: 4px;
+}
